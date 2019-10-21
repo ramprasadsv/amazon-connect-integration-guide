@@ -20,3 +20,7 @@ You can export Contact Trace Records (\CTRs\) and agent events from Amazon Conne
 
 ## Call Recordings & Historical Reports<a name="s3sdk"></a>
 Amazon Connect will store call recordings as well as historical reports in Amazon S3. These can be integrated by leveraging the [Amazon S3 API](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html)\.
+
+## Live Media Streaming<a name="livemediastreaming"></a>
+Amazon Connect will provide access to customer audio in realtime using Amazon Kinesis Video Streams libraries, where it can be consumed and provide voice bio-metric authentication or other use cases. By default Live Media Streaming is not enabled when you create an instance.  To enable live media streaming, see [Enable Live Media Streaming](https://github.com/awsdocs/amazon-connect-admin-guide/blob/master/doc_source/enable-live-media-streams.md)\.
+
